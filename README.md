@@ -19,7 +19,7 @@ the actuator controller drivers of a RB1 Robot and make the test and investigati
 
 In order to be able to make this package work you must to follow the next steps:
 
-    1- Download this repositories https://github.com/Romu10/ROS2_CONTROL_RB1.git
+    1- Download this repositories https://github.com/Romu10/ROS2_CONTROL_FRW_RB1.git
     2- Go to the CLI 
     3- Go to you workspace: /ros2_ws
     4- Compile: colcon build
@@ -30,7 +30,7 @@ In order to be able to make this package work you must to follow the next steps:
 To start the simulation you must to follow the following steps:
 
     1- Go to your work space: /ros2_ws
-    2- Use the next command to launch the simulation: ros2 launch rb1_ros2_description rb1_ros2_xacro.launch.py
+    2- Use the next command to launch the simulation: ros2 launch rb1_ros2_desc_ctr rb1_ros2_xacro.launch.py
     
     if the simulation is launched properly you will see 3 grean lines in the same window you are running the command.
         
